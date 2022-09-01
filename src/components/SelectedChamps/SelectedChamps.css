@@ -12,6 +12,12 @@
   min-height: 90px;
 }
 
+.average-abilities-text {
+  font-size: 23px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 .ability-average-table {
   margin: 20px auto 0 auto;
   table-layout: auto;

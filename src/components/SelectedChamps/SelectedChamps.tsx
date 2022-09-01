@@ -28,6 +28,7 @@ const SelectedChamps = ({
           )
         })}
       </div>
+      <div className='average-abilities-text'>Average Abilities</div>
       <table className='ability-average-table'>
         <thead>
           <tr>

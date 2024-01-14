@@ -1,6 +1,7 @@
 {
   "name": "frontend-challenge",
   "version": "0.1.0",
+  "homepage": "https://niccololampa.github.io/react-squad-of-champions",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
@@ -11,6 +12,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^6.1.1",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -25,7 +27,9 @@
     "scraper": "node src/utils/scraper.mjs",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
     "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
-    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-squad-of-champions/static/css/main.11b7dadd.css",
+    "main.js": "/react-squad-of-champions/static/js/main.5667fc59.js",
+    "static/js/787.2d2de49c.chunk.js": "/react-squad-of-champions/static/js/787.2d2de49c.chunk.js",
+    "static/media/Mortal-Kombat-Logo.png": "/react-squad-of-champions/static/media/Mortal-Kombat-Logo.29f8ae525bb330542614.png",
+    "index.html": "/react-squad-of-champions/index.html",
+    "main.11b7dadd.css.map": "/react-squad-of-champions/static/css/main.11b7dadd.css.map",
+    "main.5667fc59.js.map": "/react-squad-of-champions/static/js/main.5667fc59.js.map",
+    "787.2d2de49c.chunk.js.map": "/react-squad-of-champions/static/js/787.2d2de49c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11b7dadd.css",
+    "static/js/main.5667fc59.js"
+  ]
+}
